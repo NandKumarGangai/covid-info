@@ -1,0 +1,30 @@
+@import './utils.css';
+
+.country-data {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    padding: 1rem;
+    border-bottom: 1px solid;
+}
+
+.country-data > div {
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+}
+
+.title {
+    font-weight: 600;
+}
+
+.content {
+    font-weight: 700;
+}
+
+@media (max-width: 700px) {
+    .country-data {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}

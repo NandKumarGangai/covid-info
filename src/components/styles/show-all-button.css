@@ -1,0 +1,19 @@
+@import './utils.css';
+
+.show-all-btn {
+   display: flex;
+   justify-content: center;
+   padding: 1rem;
+}
+
+.show-all-btn > button {
+    padding: 0.4rem 1rem;
+    background-color:#add8e6;
+    border: 1px solid #444;
+    border-radius: 0.4rem;
+}
+
+.show-all-btn > button:hover {
+    background-color: var(--color-blue);
+    color: var(--color-white);
+}

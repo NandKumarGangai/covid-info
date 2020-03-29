@@ -1,0 +1,45 @@
+:root {
+    --color-red: #f00;
+    --color-green: #0f0;
+    --color-blue: #00f;
+    --color-black: #111;
+    --color-yellow: #ff0;
+    --color-lightblue: #0ff;
+    --color-pink: #f0f;
+    --color-light-gray: #4c4c4c;
+    --color-white: #fff;
+}
+
+.text-danger {
+    color: var(--color-red);
+}
+
+.text-success {
+    color: var(--color-green);
+}
+
+.text-light {
+    color: var(--color-white);
+}
+.large {
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+a {
+    color: var(--color-black);
+}
+
+.bg-danger {
+    background-color: var(--color-red);
+}
+
+@media (max-width: 700px) {
+    .hide-sm {
+        display: none;
+    }
+    
+    p {
+        margin: 0;
+    }
+}
