@@ -2,7 +2,7 @@
   "name": "covid-stats",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://NandKumarGangai.github.io/corona-virus",
+  "homepage": "http://NandKumarGangai.github.io/covid-info",
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.5.0",
